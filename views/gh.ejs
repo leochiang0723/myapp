@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/goldenhehe.css" />
+    <link rel="stylesheet" href="../stylesheets/modal.css" type="text/css" media="screen" />
+    <script src="../javascripts/jquery.modal.js" type="text/javascript" charset="utf-8"></script>
+    <title>赫綵設計學院-金赫獎</title>
+    <script>
+    $(function() {
+        $("#gotop").click(function() {
+            jQuery("html,body").animate({
+                scrollTop: 0
+            }, 1000);
+        });
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 300) {
+                $('#gotop').fadeIn("fast");
+            } else {
+                $('gotop').stop().fadeOut("fast");
+            }
+        });
+    });
+    </script>
+    <script>
+    $(document).ready(function() {
+        $('#backLink').click(function() {
+            parent.history.back();
+            return false;
+        });
+
+    });
+    </script>
+    <script>
+    $(document).ready(function() {
+        $(".button1").click(function() {
+            $('html,body').animate({ scrollTop: $('#event').offset().top - 25 }, 1000); //1460
+        });
+    });
+    $(document).ready(function() {
+        $(".button2").click(function() {
+            $('html,body').animate({ scrollTop: $('#reward').offset().top - 40 }, 1000); //1460
+        });
+    });
+    $(document).ready(function() {
+        $(".button3").click(function() {
+            $('html,body').animate({ scrollTop: $('#how').offset().top - 28 }, 1000); //1460
+        });
+    });
+    $(document).ready(function() {
+        $(".button4").click(function() {
+            $('html,body').animate({ scrollTop: $('#curriculum').offset().top - 35 }, 1000); //1460
+
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <div id="gotop">^</div>
+    <header>
+        <button onclick="window.open('http://appedu.com.tw/'); return false;"></button>
+        <p class="p1"><a href="">上傳作品報名表格</a></p>
+        <!--work folder -->
+        <p class="p2"><a href="">得獎公告</a></p>
+        <!-- award folder -->
+        <p class="p3"><a href="https://www.facebook.com/appedu/" target="_blank'">粉絲專頁</a></p>
+        <!--facebook fanpage -->
+        <img src="../images/gh_header.jpg" width="100%">
+    </header>
+    <img src="../images/gh_body1.jpg" width="100%">
+    <div class="slide">
+        <div class="scrollbutton">
+            <p>
+                <button class="button1">活動時程</button>
+            </p>
+            <p>
+                <button class="button2">金赫獎賞</button>
+            </p>
+            <p>
+                <button class="button3">逐獎辦法</button>
+            </p>
+            <button class="button4">評選辦法</button>
+        </div>
+        <img src="../images/gh_body2.jpg" width="900px">
+    </div>
+    <div id="event">
+    </div>
+    <img src="../images/gh_body3.jpg" width="100%">
+    <div id="reward" class="reward">
+        <img src="../images/gh_body4.jpg" width="100%">
+    </div>
+    <div id="how" class="rules">
+        <button class="rulebutton"><a href="#ex1" rel="modal:open">參賽需知</a></button>
+        <button class="rulebutton1"><a href="#ex2" rel="modal:open">作品規範</a></button>
+        <img src="../images/gh_body5.jpg" width="900px">
+    </div>
+    </div>
+    <div id="curriculum" class="curriculum">
+        <img src="../images/gh_body6.jpg" width="100%">
+    </div>
+    <img src="../images/gh_body7.jpg" width="100%">
+    <div id="ex1" style="display:none;" class="modal">
+        <p>01. 完成報名視同授權主辦單位使用參賽者所提供相關資料。
+            <br> 02. 參賽作品須為本人作品，如有違反規定，取消參賽資格。
+            <br>03. 參賽作品須為本人作品，如有違反善良風俗或嚴禁抄襲仿冒、或涉及著作權、專利 權及其他權利之侵害情事，參賽者應自負 一切法律責任。
+            <br> 04. 獎項由評審會議視參加作品水準，可以「從缺」或「增加得獎名額」辦理。
+            <br> 05. 若有上述情形經查證屬實者，將取消得獎資格，並追回已頒發獎狀與獎金。
+            <br> 06. 完成報名即視同授權主辦單位使用參賽者公開於官方網站上的個人資料。
+            <br>07. 凡進入第二階段之作品，即表示同意主辦單位擁有其作品展示權。
+            <br> 08. 得獎者須配合參加或出席相關宣傳活動，違反參賽規則、情節重大者將取消參賽資 格，另由備取人選遞補。
+            <br>09. 主辦單位保有隨時修改活動辦法及獎項或中止本活動或變更 同等價值商品之權利， 未盡事宜將公於活動網站。
+            <br> 10. 依中華民國所得稅法規定，獎品獎金超過新台幣 2 萬元以上，得獎者須依規定扣繳 10%中獎所得稅額，始得領獎；外籍得獎人(即中華民國境內居住未達183天之本國 人及外國人)依規定扣繳20%稅率。若不願配合，則視為自動放 棄得獎資格， 該獎項 視同從缺。
+            <br>11. 依中華民國稅法規定，獎項金額若超過新台幣1仟元，獎項所 得將列入個人年度綜合 所得稅申報，故得獎人需依規定填寫 並繳交相關收據方可領獎。若不願意配合，則 視為自動棄權， 不具得獎資格，該獎項視同從缺。 注意事項 ‧ 如有使用其他智慧財產權創作物時，需於交件檢附相關證明文件或授權書。‧ 未獲獎作品恕不另行公佈。
+            <br>｜活動聯絡人：Amy/蕭小姐
+            <br>｜免付費專線：0800-885-222
+            <br>｜聯絡信箱：amy@appedu.com.tw
+            <br>｜官方信箱：appedu@appedu.com.tw
+            <a href="#" rel="modal:close"></a></p>
+    </div>
+    <div id="ex2" style="display:none;" class="modal">
+        <p class="p4">投稿方式：將報名表及投稿作品上傳至活動網站 。
+            <br>
+            <br>作品規格：
+            <br>・ A3 尺寸(420mm*297mm)
+            <br>・ 300dpi
+            <br> ・ 檔案大小在8M以下
+            <br>
+            <br> 名稱命名：作品主題_作者本名
+            <br>・ 作品主題 _ 作者本名.jpeg檔
+            <br>
+            <br>*團體組請列出所有參賽者資料， 如為2件作品參賽，請填寫2份報名表格。
+            <br>
+            <br> *請保留psd檔，包含作品圖層、元件須可拆解，若得獎請提供給主辦單位。
+            <br>
+            <br>參加表示同意作品授權於主辦單位，使用於活動宣傳、廣告、商品使用， 若未符規定，主辦單位將取消其得獎資格。
+            <a href="#" rel="modal:close"></a></p>
+    </div>
+</body>
+<button id="backLink" class="backLink">Previous Page</div>
+</button>
+
+</html>

@@ -1,0 +1,249 @@
+html {
+    font-family: /*English First*/
+    "Roboto",
+    "Helvetica Neue", /*OSX*/
+    "Helvetica", /*Win*/
+    "Arial",
+    "Segoe UI", /*Win ^8*/
+    /*Chinese Fallback*/
+    "PingFang TC", /* OSX ^10.11 & iOS ^9  蘋方*/
+    "Hiragino Sans GB", /*OSX ^10.6            冬青黑體*/
+    "STHeiti", /*OSX <10.6  & iOS <9  華文黑體*/
+    "Microsoft YaHei", /*Win                  微軟雅黑*/
+    "Microsoft JhengHei", /*Win                  微軟正黑*/
+    "Source Han Sans TC", /*SourceHan - begin    思源黑體*/
+    "Noto Sans TC",
+    "Source Han Sans CN",
+    "Noto Sans TC",
+    "Source Han Sans TC",
+    "Noto Sans CJK TC", /*SourceHan - end*/
+    "WenQuanYi Micro Hei", /*Linux                文泉驛微米黑*/
+    "SimSun", /*Win old              中易宋體*/
+    sans-serif;
+    /*System Fallback*/
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+    /* max-width: 500px; 建議可加上「最大寬度」讓圖片不會過大。500px只是一個例子*/
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+header {
+    top: 0px;
+    position: fixed;
+    width: 880px;
+}
+
+header img {
+    display: block;
+    /* max-width: 500px; 建議可加上「最大寬度」讓圖片不會過大。500px只是一個例子*/
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+header p {
+    display: inline-block;
+    margin-top: 0%;
+}
+
+.p1 {
+    margin-left: 20%;
+    font-size: 21px;
+    color: #fff;
+}
+
+.p2 {
+
+    padding-left: 40px;
+    margin-left: 4%;
+    font-size: 21px;
+    color: #fff;
+}
+
+.p3 {
+    margin-left: 7.8%;
+    font-size: 21px;
+    color: #fff;
+}
+
+p {
+    line-height: 200%;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding-bottom: 2px;
+    font-family: font-family: Arial, Helvetica, sans-serif;
+}
+
+.p4 {
+    float: left;
+    font color: black;
+    line-height: 160%;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding-bottom: 2px;
+    font-family: font-family: Arial, Helvetica, sans-serif;
+}
+
+header a {
+    text-decoration: none;
+    color: floralwhite;
+}
+
+header a:hover {
+    color: yellow;
+}
+
+header button {
+    height: 40px;
+    width: 140px;
+    margin-left: 8%;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.button1 {
+
+    margin-top: 1px;
+    margin-left: 60px;
+    background-color: steelblue;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button2 {
+
+    margin-top: 1px;
+    margin-left: 60px;
+    background-color: steelblue;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button3 {
+
+    margin-top: 1px;
+    margin-left: 60px;
+    background-color: steelblue;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button4 {
+
+    margin-top: 1px;
+    margin-left: 60px;
+    background-color: steelblue;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#gotop {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+    background: #777;
+    color: white;
+    cursor: pointer;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+}
+
+.scrollbutton {
+    position: absolute;
+}
+
+.rules {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.rulebutton {
+    position: absolute;
+    float: left;
+    height: 40px;
+    width: 140px;
+    margin-left: 50px;
+    margin-top: 250px;
+    background-color: steelblue;
+    border: none;
+}
+
+.rulebutton1 {
+    position: absolute;
+    float: left;
+    height: 40px;
+    width: 140px;
+    background-color: steelblue;
+    margin-left: 260px;
+    margin-top: 250px;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.view {
+    color: black;
+    font-size: 14px;
+    float: left;
+    position: absolute;
+}
+
+.test {
+    max-width: auto;
+    max-height: auto;
+}
+
+.backLink {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

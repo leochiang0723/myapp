@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WeiWei</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/weiwei.css">
+    <link href="../stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="../stylesheets/custom.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <script>
+    $(document).ready(function() {
+        $('#backLink').click(function() {
+            parent.history.back();
+            return false;
+        });
+
+    });
+    </script>
+</head>
+
+<body>
+    <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Logo and responsive toggle -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="./index">
+                    <span class="glyphicon glyphicon-knight"></span> 
+                    Appedu Events Center
+                </a>
+            </div>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="http://appedu.com.tw">首頁</a>
+                    </li>
+                    <li>
+                        <a href="./weiwei">Wei 喂!</a>
+                    </li>
+                    <li>
+                        <a href="./gh">金赫獎</a>
+                    </li>
+                    <li>
+                        <a href="#">Test#</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <section>
+        <div>
+            <!-- <h4><a href="https://www.google.com">更多課程</h4></a>test --></div>
+        <div><img src="../images/weiwei3.png" style="width:50%"></div>
+        <div><img src="../images/weiwei2.jpg" style="width: 50%"></div>
+    </section>
+    <div class="form-style-5">
+        <form>
+            <fieldset>
+                <legend><span class="number">1</span> 基本資料</legend>
+                <input type="text" name="field1" placeholder="姓名 *">
+                <input type="text" name="field2" placeholder="手機 *">
+                <input type="email" name="field3" placeholder="信箱 *"></input>
+                <div class="select.join">
+                    <legend><span class="number">2</span> 居住城市</legend>
+                    <div>
+                        <br>
+                        <select id="county" name="field5">
+                            <option value="" disabled selected>選擇城市</option>
+                            <option>test1</option>
+                            <option>test2</option>
+                        </select>
+                    </div>
+                    <select id="city" name="field4">
+                        <option value="" disabled selected>選擇地區</option>
+                        <option>test1</option>
+                        <option>test2</option>
+                        <option>test3</option>
+                        <option>test4</option>
+                        <option>test5</option>
+                        <option>Other</option>
+                    </select>
+            </fieldset>
+            <input type="submit" value="立即報名！" />
+        </form>
+        </div>
+        <div><img src="../images/weiwei4.png" style="width:50%"></div>
+        <script src="../javascripts/jquery-1.11.3.min.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="../javascripts/bootstrap.min.js"></script>
+        <!-- Plugin JavaScript -->
+        <script src="../javascripts/jquery.easing.min.js"></script>
+        <!-- Custom Javascript -->
+        <script src="../javascripts/custom.js"></script>
+</body>
+
+</html>
