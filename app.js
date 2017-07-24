@@ -14,6 +14,7 @@ var index = require('./routes/index');
 var login = require('./routes/login');
 var gh = require('./routes/gh');
 var weiwei = require('./routes/weiwei');
+var lightbox = require('./routes/lightbox');
 var app = express();
 
 // view engine setup
@@ -28,10 +29,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+
 app.use('/', routes);
 app.use('/gh', gh);
 app.use('/weiwei', weiwei);
 app.use('/index', index);
+app.use('/lightbox', lightbox);
 //app.use('/login', login);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
