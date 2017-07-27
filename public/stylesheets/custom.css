@@ -155,10 +155,21 @@ header .header-content .header-content-inner p {
 .item-3 {
     background: url('../images/pencil_sharpener.jpg');
 }
-
+.item-4 {
+    background: url('../images/lb2.jpg');
+}
+.item-5 {
+    background: url('../images/gallery.jpg');
+}
+.item-6 {
+    background: url('../images/3.jpg');
+}
 .item-1,
 .item-2,
-.item-3 {
+.item-3, 
+.item-4,
+.item-5,
+.item-6{
     background-size: cover;
     background-position: 50% 50%;
 }

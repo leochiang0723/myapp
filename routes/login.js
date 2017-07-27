@@ -8,9 +8,9 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/login', function(req, res) {
-    var account = req.body.account,
-        name = req.body.name,
-        password = req.body.password;
+    var account = req.body.account;
+    var name = req.body.name;
+    var password = req.body.password;
     Users.findOne({
         account: account,
         password: password

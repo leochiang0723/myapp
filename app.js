@@ -15,6 +15,9 @@ var login = require('./routes/login');
 var gh = require('./routes/gh');
 var weiwei = require('./routes/weiwei');
 var lightbox = require('./routes/lightbox');
+var lb2 = require('./routes/lb2');
+var photogallery = require('./routes/photogallery');
+var fb = require('./routes/fb');
 var app = express();
 
 // view engine setup
@@ -35,6 +38,9 @@ app.use('/gh', gh);
 app.use('/weiwei', weiwei);
 app.use('/index', index);
 app.use('/lightbox', lightbox);
+app.use('/lb2', lb2);
+app.use('/photogallery', photogallery);
+app.use('/fb', fb);
 //app.use('/login', login);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
